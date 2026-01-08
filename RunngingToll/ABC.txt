@@ -1,0 +1,4 @@
+path--> project-backend>> node server.js
+       project-frontend>>python -m http.server 3000
+       project-backend-emotion_mode>>flask run --host 127.0.0.1 --port 5001   (if not work this line) 
+                                  >> flask run --host localhost --port 5001 ---debug

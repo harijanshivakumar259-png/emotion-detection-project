@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 480px;
+  background: #1e293b;
+  margin: auto;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #020617;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.main-btn {
+  width: 100%;
+  background: #22c55e;
+  color: white;
+  margin-top: 4px;
+}
+
+.main-btn:hover {
+  opacity: 0.9;
+}
+
+.link-btn {
+  margin-top: 10px;
+  width: 100%;
+  background: none;
+  color: #60a5fa;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.error {
+  color: #f87171;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: #4ade80;
+  margin-bottom: 10px;
+}
+
+.chat-box {
+  background: #020617;
+  padding: 14px;
+  height: 320px;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #334155;
+}
+
+.msg {
+  padding: 8px 10px;
+  margin: 8px 0;
+  border-radius: 7px;
+  font-size: 0.9rem;
+}
+
+.bot {
+  background: #475569;
+}
+
+.user {
+  background: #22c55e;
+  text-align: right;
+  color: white;
+}
+
+#recordBtn {
+  padding: 12px;
+  margin-top: 6px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 8px;
+  background: #22c55e;
+  border: none;
+  color: white;
+}
+
+#recordBtn.rec {
+  background: #ef4444;
+}
+
+.nav-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.nav-row button {
+  flex: 1;
+  font-size: 14px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #0f172a;
+  font-size: 0.75rem;
+  margin-bottom: 6px;
+  border: 1px solid #334155;
+}
+
+.badge span {
+  opacity: 0.9;
+}
+
+.usage-info {
+  font-size: 0.8rem;
+  color: #cbd5f5;
+  margin-top: 4px;
+}
+
+.chart-box {
+  margin-top: 16px;
+  background: #020617;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+.chart-box p {
+  margin: 0 0 8px 0;
+  font-size: 0.85rem;
+  color: #e5e7eb;
+}
